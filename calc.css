@@ -166,7 +166,7 @@ body {
 
 .dot{
     
-    /* background: linear-gradient(349deg, red, rgba(255, 0, 0, 0.683)); */
+    background: linear-gradient(349deg, red, rgba(255, 0, 0, 0.683));
     border-left: 1px solid white;
     height: 15px;  
     clip-path: circle();
@@ -183,9 +183,10 @@ body {
 
 @keyframes beep{
     0% {
-        box-shadow:10px 10px 10px 10px #f00;
+        /* box-shadow:10px 10px 10px 10px #f00; */
+        background: #f00;
     }
     to{
-        background-color: transparent;
+        background: transpare   nt;
     }
 }
