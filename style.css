@@ -40,6 +40,14 @@ h1{
     background-size: cover;
     background-position:top center;
 }
+.img-area1{
+    background-color: red;
+    height: 300px;
+    background-image: url(./Gameboy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top center;
+}
 
 .img-area img{
     /* height: 100px; */
